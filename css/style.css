@@ -165,7 +165,11 @@ img {
     border: solid #F9FAF8 2px;
     border-radius: 5px;
     flex: 1 1 50px;
-    padding: 5px 15px;
+    padding: 5px;
+}
+
+.text {
+    flex: 1 1 auto;
 }
 
 .text h2, .text p {
@@ -173,7 +177,7 @@ img {
 }
 
 .text h2 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .text p {
