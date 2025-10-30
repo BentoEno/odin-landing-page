@@ -43,4 +43,143 @@ header {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
+
+p {
+    margin-top: 8px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.main {
+    flex: 1 1 200px;
+}
+
+img {
+    width: 200px;
+    flex: 1 2 auto;
+}
+
+.signup {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+}
+
+/* Random info section style */
+.infotext {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.placeholder {
+    border: solid #3882F6 5px;
+    width: 130px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.info {
+    padding: 0 30px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.randinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.randinfo p {
+    max-width: 130px;
+    color: gray;
+}
+
+/* Quote section style */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    color: gray;
+}
+
+.author {
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+}
+
+/* Cta section styling */
+.cta-section {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
+    padding: 5% 15%;
+    width: 40%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid #F9FAF8 2px;
+    border-radius: 5px;
+    flex: 1 1 50px;
+    padding: 5px 15px;
+}
+
+.text h2, .text p {
+    margin: 0;
+}
+
+.text h2 {
+    font-size: 18px;
+}
+
+.text p {
+    font-size: 12px;
+}
+
+/* footer */
+footer {
+    background-color:#1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
