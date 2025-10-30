@@ -35,6 +35,10 @@ header {
 .topnav a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 20px;
+}
+
+#banner p {
     font-size: 18px;
 }
 
@@ -53,18 +57,20 @@ p {
 #banner {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 24px;
+    align-items: center;
+    gap: 36px;
     padding-top: 50px;
     padding-bottom: 70px;
 }
 
 .main {
-    flex: 1 1 200px;
+    max-width: 40%;
+    flex: 1 1 auto;
 }
 
 img {
-    width: 200px;
+    height: auto;
+    width: 100px;
     flex: 1 2 auto;
 }
 
